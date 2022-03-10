@@ -1,0 +1,15 @@
+$color-red: #FF0000;
+$color-green: #00FF00;
+$color-blue: #0000FF;
+
+@mixin nombre_del_mixin{
+
+    width: 100% ;
+
+}
+
+@mixin nombre_del_mixin(){
+
+    width: 100% ;
+
+}
