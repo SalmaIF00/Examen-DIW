@@ -1,10 +1,23 @@
 $color-nav: #8bc1eb;
 $background: #b5cada;
+$color_titulos: #76c4ff;
+$color_texto: #002643;
+$color_texto: #002643;
 
 
+@mixin ancho_alto($ancho ,$alto){
+    width: $ancho;
+    height: $alto;
+}
 
-@mixin nombre_del_mixin(){
 
-    width: 100% ;
+@mixin coloryletras_nav{
+background-color:$color-nav ;
+
+    
+
+}
+@mixin titulo_centrado{
+
 
 }
