@@ -2,6 +2,7 @@
 /*Marrones*/
 /*Beiges*/
 /*Verdes*/
+/*Negro*/
 /*https://coolors.co/palette/582f0e-7f4f24-936639-a68a64-b6ad90-c2c5aa-a4ac86-656d4a-414833-333d29*/
 @font-face {
   font-family: 'OpenDyslexic';
@@ -16,6 +17,10 @@ body {
   background-color: #ddd5ca;
 }
 
+#contenedor-principal .car {
+  background-color: #582F0E;
+}
+
 #contenedor-principal #navegador {
   background-color: #656D4A;
 }
@@ -26,7 +31,7 @@ body {
 
 #contenedor-principal p {
   text-align: justify;
-  color: #414833;
+  color: #000000;
 }
 
 #contenedor-principal h5 {
