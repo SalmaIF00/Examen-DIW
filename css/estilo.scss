@@ -1,0 +1,42 @@
+@import "./variables.scss";
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url(css/OpenDyslexic-Bold.otf) format('opentype');
+  }
+body{
+    background-color: $color-B2;
+}
+#contenedor-principal{
+    background-color: $color-B1;
+   
+  
+    #navegador{
+        background-color: $color-V2;
+       
+        }
+        .imgcarousel{
+            height: 35em;
+        }
+        p{
+            text-align: justify;
+            color:  $color-V1;
+        }
+        h5{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            color:  $color-V1;
+        }
+        .imagenp{
+            width:90%;
+        }
+        .tarjeta{
+        background-color:$color-V3;
+    }
+
+    #footer{
+        background-color: $color-V2;
+    }
+  
+}
